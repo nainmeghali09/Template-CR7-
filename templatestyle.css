@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin:0;
+    background-color:white;
+}
+.container {
+    margin:240px auto;
+    position: relative;
+    height:385px;
+    width:646px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:#3C7E8A;
+    color:white;
+    align-items: center;
+}
+.container h3{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    right: 24%;
+}
+.container p{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px 0px 0px 40px;
+    font-size: 14px;
+}
+.container img{
+    width: 201px;
+    height: 329px;
+    border-width: 28px 55px 28px 55px;
+    border-color: black;
+    border-style: solid;
+}
